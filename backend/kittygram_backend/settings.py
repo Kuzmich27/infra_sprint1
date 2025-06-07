@@ -11,7 +11,7 @@ SECRET_KEY = config('SECRET_KEY')
 
 DEBUG = False
 
-ALLOWED_HOSTS = ['158.160.16.66', '127.0.0.1', 'localhost', 'infrasprintkuzmich.zapto.org']
+ALLOWED_HOSTS = ['89.169.175.209', '127.0.0.1', 'localhost', 'infrasprintkuzmich.zapto.org']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -83,7 +83,7 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-CSRF_TRUSTED_ORIGINS = ['http://158.160.16.66', 'https://127.0.0.1', 'http://infrasprintkuzmich.zapto.org', 'https://158.160.16.66', 'https://infrasprintkuzmich.zapto.org']
+CSRF_TRUSTED_ORIGINS = ['http://89.169.175.209', 'https://127.0.0.1', 'http://infrasprintkuzmich.zapto.org', 'https://89.169.175.209', 'https://infrasprintkuzmich.zapto.org']
 LANGUAGE_CODE = 'en-us'
 
 TIME_ZONE = 'UTC'
